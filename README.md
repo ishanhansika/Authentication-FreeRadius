@@ -29,3 +29,18 @@ sudo tee /etc/apt/sources.list.d/networkradius.list > /dev/null
 This tells your computer where to look for the software.
 
 
+### 4.  Update the APT database
+~~~
+sudo apt update
+~~~
+
+
+### 5. Installation and Dependencies
+~~~
+sudo apt install freeradius 
+~~~
+~~~
+sudo apt install git libssl-dev devscripts pkg-config libnl-3-dev libnl-genl-3-dev
+~~~
+
+
