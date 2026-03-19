@@ -43,6 +43,18 @@ sudo apt install freeradius
 sudo apt install git libssl-dev devscripts pkg-config libnl-3-dev libnl-genl-3-dev
 ~~~
 
+## Define a RADIUS client with IP address
+### 1.Modifying clients.conf
+~~~
+nano /etc/freeradius/3.0/clients.conf
+~~~
+### 2.ADD Clients
+~~~
+client cisco_router {
+   ipaddr = 192.168.1.15
+   secret = celaldogan
+}
+~~~
 
 ## Methord To Adding Users
 ### 1.Edit the users file
