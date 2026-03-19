@@ -55,7 +55,10 @@ client cisco_router {
    secret = celaldogan
 }
 ~~~
-
+### 3.Restart Services
+```
+sudo systemctl restart freeradius.service
+```
 ## Methord To Adding Users
 ### 1.Edit the users file
 * [User File](User-File/README.md)
