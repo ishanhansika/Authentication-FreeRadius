@@ -11,3 +11,7 @@ sudo nano /etc/freeradius/users
 user         Cleartext-Password := "userpassword"
 ####
 ```
+
+```
+sudo systemctl restart freeradius.service
+```
