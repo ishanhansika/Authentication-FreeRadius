@@ -45,8 +45,8 @@ sudo apt install git libssl-dev devscripts pkg-config libnl-3-dev libnl-genl-3-d
 
 
 ## Methord To Adding Users
-1.Edit the users file
-2.Connect SQL Database
-3.Connect LDAP / Active Directory
-4.PAM (System Users)
+### 1.Edit the users file
+### 2.Connect SQL Database
+### 3.Connect LDAP / Active Directory
+### 4.PAM (System Users)
 
