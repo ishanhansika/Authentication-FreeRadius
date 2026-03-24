@@ -59,6 +59,9 @@ client cisco_router {
 ```
 sudo systemctl restart freeradius.service
 ```
+## Error
+
+
 ## Methord To Adding Users
 ### 1.Edit the users file
 * [User File](User-File/README.md)
