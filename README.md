@@ -70,3 +70,6 @@ sudo systemctl restart freeradius.service
 * [LDAP](Connect%20LDAP%20/RAEDME.md)
 ### 4.PAM (System Users)
 
+## Error
+### 1.freeradius -X
+* [](Error/freeradius -X)
