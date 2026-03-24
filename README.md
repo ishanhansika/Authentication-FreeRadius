@@ -72,4 +72,4 @@ sudo systemctl restart freeradius.service
 
 ## Error
 ### 1.freeradius -X
-* [](Error/freeradius -X)
+* [Failed binding to auth address * port 1812 ](freeradius%20-X/README.md)
